@@ -1,0 +1,130 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2f2f2;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+  height: 65px;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
+
+.navbar ul li a{
+  font-size: 16px;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover{
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.logo{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.myimage{
+  width: 26%;
+  border-radius: 20px;
+}
+
+.home{
+}
+
+.content{
+  display: inline-flex;
+  flex: 20%;
+  justify-content: center; 
+  margin: 10% 5% ;
+  align-items: center;
+}
+
+.home-content{
+  margin: 10px;
+  padding: 5%;
+}
+
+.home-content h3{
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.home-content h4{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.home-content p{
+  margin-top: 40px;
+}
+
+
+/* here is for about */
+.content-about{
+  background-color: #d9d9d9; 
+  height: 50vh;
+  padding: 2% 10% 10%;
+  margin-top: 5%;
+}
+
+.content-about h2{
+  text-align: center;
+}
+
+.about-desc{
+  margin: 30px 50px;
+}
+
+.about-desc p:nth-child(1){
+  text-align: center;
+}
+
+.row{
+  margin: 5%;
+  padding: 5px 20px;
+  display: flex;
+  flex: 50%;
+
+}
+
+.row .column{
+  justify-content: center;
+}
+
+.row .column h3{
+  text-align: center;
+}
+
+.row .column p{
+  text-align: justify;
+}
+
+.column{
+  flex: 50%;
+  padding: 20px 40px;
+  height: 200px;
+}
+
+
+
