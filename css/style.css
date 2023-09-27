@@ -11,6 +11,9 @@ body{
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   padding: 0px 5%;
   height: 65px;
+  position: fixed;
+  width: 90%;
+  background-color: #f2f2f2;
 }
 
 .navbar ul{
@@ -26,7 +29,7 @@ body{
 
 .navbar ul li a{
   font-size: 16px;
-  padding: 6px;
+  padding: 8px;
   text-decoration: none;
 }
 
@@ -110,6 +113,9 @@ body{
 
 .row .column{
   justify-content: center;
+  border-radius: 20px;
+  flex: 50%;
+  margin-right: 2%;
 }
 
 .row .column h3{
@@ -127,4 +133,135 @@ body{
 }
 
 
+/* here is for skill */
+.content-skill{
+  height: 50vh;
+  padding: 5% 10% 10%;
+  margin-top: 5%;
+}
+.content-skill h2, .skill-desc p{
+  text-align: center;
+}
 
+.box-container{
+  display: flex;
+  text-align: justify;
+  justify-content: space-around;
+  padding: 3%;
+}
+
+.box1, .box2, .box3{
+  border-radius: 20px;
+  width: 250px;
+  height: 300px;
+  box-shadow: 2px 8px 12px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  
+}
+
+.box1 span, .box2 span, .box3 span{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-items: center;
+  background-color: grey;
+  justify-content: center;
+  display: flex;
+  padding: 4%;
+  color: #f2f2f2;
+}
+
+.box1 p:nth-child(2), .box2 p:nth-child(2), .box3 p:nth-child(2){
+  width: 200px;
+  padding: 4%;
+}
+
+
+/* here is for contact */
+.contact{
+  height: 60vh;
+  background-color: #d9d9d9;
+  padding: 2% 10% 10%;
+}
+
+.contact h2, .contact p{
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.contact-desc{
+  margin: 50px 50px;
+}
+
+input[type=text], select, text-area{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 6px;
+  margin-bottom: 22px;
+  resize: vertical;
+}
+
+input[type=submit]{
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+input[type=submit]:hover{
+  overflow: hidden;
+  background-color: grey;
+  cursor: pointer;
+}
+
+
+/* here is for footer */
+footer{
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: darkgrey;
+}
+
+footer p:nth-child(1){
+  font-size: 26px;
+  font-weigth: bold;
+  line-height: 20px;
+}
+
+footer p:nth-child(2){
+  font-size: 18px;
+  font-weigth: bold;
+  line-height: 20px;
+}
+
+.social-icons{
+  margin: 30px 0px;
+  display: flex;
+  text-align: center;
+}
+
+.social-icons a{
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+
+.social-icons i{
+  font-size: 36px;
+  color: black;
+}
